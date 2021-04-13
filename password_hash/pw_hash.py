@@ -1,3 +1,7 @@
+"""
+Author: Quoc Thinh Vo
+Date: 02/20/2021
+"""
 import bcrypt
 from timeit import default_timer as timer # https://stackoverflow.com/a/25823885
 import numpy as np
