@@ -35,7 +35,7 @@ while choice != 'Q':
     choice=input("Enter your choice R/S/P-- Q to quit: \n" )
     history1.append(choice) 
 
-history1=history1[:-1]    
+#history1=history1[:-1]    
    
 print("player: ", random.choices(history1))
 print("my robot: ", strategy(history1))
