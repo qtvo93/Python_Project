@@ -1,3 +1,6 @@
+"""
+Author: Quoc Thinh VO
+"""
 class ArrayQueue:
     def __init__(self):
         # NOTE: your LinkedListQueue
