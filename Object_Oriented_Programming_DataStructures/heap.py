@@ -1,4 +1,6 @@
-
+"""
+Author: Quoc Thinh Vo
+"""
 class MinHeap:
     def __init__(self, length):
         """Creates heap array with length empty slots,
