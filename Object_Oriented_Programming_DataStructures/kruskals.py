@@ -1,3 +1,6 @@
+"""
+Author: Quoc Thinh Vo
+"""
 def kruskals(graph, edges):
     """Takes dictionary adjacency list of undirected graph
     and dictionary of edge weights (each undirected edge
