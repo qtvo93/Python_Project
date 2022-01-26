@@ -58,8 +58,8 @@ def download_data(aps, symbols, start_date, end_date, filename='data.csv'):
     
     
 # Call method.
-aps = tradeapi.REST(key_id = 'PKPVKNF9PIEBCDYE54LC', 
-                    secret_key = 's8ppa683lYuePmyclqmZdOA2siukGrQDs7psEqyd',
+aps = tradeapi.REST(key_id = 'key_id', 
+                    secret_key = 'secret_key',
                     base_url = 'https://paper-api.alpaca.markets')
 
 
