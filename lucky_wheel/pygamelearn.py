@@ -10,7 +10,6 @@ from datetime import datetime
 from playsound import playsound
 from pygame import mixer  
 
-
 mixer.init()
 
 def rotate(surface,angle):
@@ -53,8 +52,7 @@ while Run == True:
 		if y == 0:
 			mixer.music.stop()
 			Run = False		
-		
-		
+			
 if Run == False:
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
